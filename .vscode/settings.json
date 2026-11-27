@@ -1,0 +1,14 @@
+{
+  "files.exclude": {
+    "**/.next": true,
+    "**/.openai": true,
+    "**/.sites-runtime": true,
+    "**/.vinext": true,
+    "**/.wrangler": true,
+    "**/.vscode": true,
+    "**/dist": true,
+    "**/node_modules": true,
+    "lib/connector-*": true
+  }
+}
+
