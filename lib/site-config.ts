@@ -8,7 +8,7 @@ export function formatWhatsAppNumber(raw: string): string {
 
 export const siteConfig = {
   name: 'SURYANEST', caption: 'INTEGRATED POWER UNIT',
-  whatsapp: formatWhatsAppNumber(process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || ''), // Set NEXT_PUBLIC_WHATSAPP_NUMBER or SURYANEST_WHATSAPP_NUMBER in .env.local (with country code, e.g. 919876543210).
+  whatsapp: formatWhatsAppNumber(process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '919884330789'), // Configure NEXT_PUBLIC_WHATSAPP_NUMBER (with country code, e.g. 919884330789).
   demoVideo: '', // Add the approved demonstration video URL.
   documents: [] as { title: string; description: string; url: string }[],
   manufacturer: 'Solaryaan', referenceCapacity: '3 kW', referencePhase: 'Single-phase',
